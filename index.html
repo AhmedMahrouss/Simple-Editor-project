@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahrous-Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Start Title -->
+<h1>Mahrous Editor</h1>
+<!-- End Title -->
+<!-- Start Container -->
+<div class="container">
+    <!-- Start Box -->
+<div class="box">
+<div class="imgBox">
+    <div class="img" style="display: none;">
+        <img id="imgg">
+    </div>
+    <label for="upload" class="Upload">Upload</label>
+    <input type="file" id="upload" hidden>
+</div>
+<div class="filter">
+<label for="saturate">Saturate</label>
+<br>
+<input type="range" id="saturate"  min="0" max="200" value="100" >
+<br>
+<label for="contrast">contrast</label>
+<br>
+<input type="range" id="contrast"  min="0" max="200" value="100"  >
+<br>
+<label for="Brightness">Brightness</label>
+<br>
+<input type="range" id="Brightness"min="0" max="200" value="100" >
+<br>
+<label for="Sepia">Sepia</label>
+<br>
+<input type="range" id="Sepia"     min="0" max="200" value="0">
+<br>
+<label for="GrayScale">GrayScale</label>
+<br>
+<input type="range" id="GrayScale" min="0" max="200" value="0">
+<br>
+<label for="Blur">Blur</label>
+<br>
+<input type="range" id="Blur"      min="0" max="200" value="0">
+<br>
+<label for="HueRotate">Hue Rotate</label>
+<br>
+<input type="range" id="HueRotate" min="0" max="200" value="0">
+<div class="btn">
+    <button id="reset">Reset</button>
+    <button id="download">Download</button>
+    </div>
+</div>
+
+</div>
+    <!-- End Box -->
+
+</div>
+<!-- End Container -->
+<script src="main.js"></script>
+</body>
+</html>
